@@ -1,4 +1,4 @@
-function seats{
+function seats () {
 
     let row= 26;
     let seat= 100;
@@ -11,7 +11,7 @@ function seats{
     }
     return seats;
 }
-
+seats();
 
 /*
 We're building a ticket selling app for a cinema and we need to represent
