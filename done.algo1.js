@@ -1,3 +1,18 @@
+function seats{
+
+    let row= 26;
+    let seat= 100;
+    let = []
+
+    for (let  i = 0; i <= row ; i++){
+        for (let j = 0; j <=seat; j++){
+            seats.push(`${i}-${j}`);
+        }
+    }
+    return seats;
+}
+
+
 /*
 We're building a ticket selling app for a cinema and we need to represent
 all the seats in the main room.
