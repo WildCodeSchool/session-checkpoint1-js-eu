@@ -23,3 +23,16 @@ The final array should look something like this:
     26-100
 ]
 */
+
+function cinema (row, seats) {
+    const result = [];
+    for (let i = 1; i < 27; i++) {
+        for (let j = 1; j < 101; j++) {
+            result.push(i+'-'+j)
+        }
+    }
+    return result;
+}
+
+console.log(cinema(26, 100));
+
