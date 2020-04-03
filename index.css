@@ -1,0 +1,10 @@
+body {
+}
+.img-recipe,
+.img-recipe img {
+    width: 100%;
+}
+
+.img-recipe {
+    margin: 15px 0;
+}
