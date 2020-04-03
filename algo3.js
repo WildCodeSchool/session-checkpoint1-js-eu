@@ -21,14 +21,21 @@ function minuteAngle(minute) {
         console.log(message);
         return message;
     }
+
     return message;
 }
 
 
 
-/* let input = document.getElementById("angleMinutes").value;
-let button = document.getElementById('btnSubmit');
-button.addEventListener('click', minuteAngle(input)); */
 
-/* document.getElementById("messageOutput").innerHTML = message;
- */
+let button = document.getElementById('btnSubmit');
+
+button.addEventListener('click', () => {
+    let input = document.getElementById("angleMinutes").value;
+    console.log(input);
+    minuteAngle(input);
+    document.getElementById("messageOutput").innerHTML = minuteAngle(input);
+    let output = document.getElementById("messageOutput").innerHTML;
+});
+
+ 
