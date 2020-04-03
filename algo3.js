@@ -5,6 +5,14 @@ If the user enters a number that is above 60, your program should fail, and log 
 (Hint: Create an HTML UI to capture input and display the result of running you algorithm)
 */
 
-function minuteAngle(minute) {
+/*1 hour = 60min= 30deg => 1 minute = 0,5deg*/
 
+function minuteAngle(minute) {
+  let angle;
+  if (minute <= 60) {
+    angle = minute * 0.5;
+    return angle;
+  } else {
+    return "Enter a value inferior or Equal to 60";
+  }
 }
