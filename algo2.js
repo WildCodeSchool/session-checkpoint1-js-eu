@@ -24,18 +24,26 @@ Fix the following function to help your new coworker!
 Note: try changing only the necessary code, don't rewrite the entire thing. 
 */
 
+let array = [1, 2, 3, 4, 5];
+
 var minMax = () => (array) => {
     const min = 0;
-    const max = array[0];
+    const max = 0;
+    let minMax=[];
 
-    for (let i = 1; i = array.length - 1; i + 1) {
-        if (array(i) < min) {
-            min = array;
+    for (let i = 1; i< array.length - 1; i ++) {
+        if (array(i) === Math.min(array)) {
+            min = array[i];
+            return min;
         }
-        if (array[i] = max) {
+        if (array[i] === Math.max(array)) 
+        { 
             max = array[i];
+            return max;
         }
-        return array;
+        
     }
-    array.push(min, max);
-}
+    minMax.push(min, max);
+    }
+     console.log(minMax);
+
