@@ -23,3 +23,17 @@ The final array should look something like this:
     26-100
 ]
 */
+
+// const rows = [ '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26']
+
+
+const allCinemaSeats = (rows, seats) =>{
+    const newSeat = [];
+    for(let i = 1; i <= 26; i++){
+        for(let j = 1; j <= 100; j++){
+        newSeat.push(i + "-" + j)
+        }
+    }
+    return newSeat
+}
+console.log(allCinemaSeats(26,100)) 
