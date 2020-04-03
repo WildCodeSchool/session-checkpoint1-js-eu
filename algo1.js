@@ -23,3 +23,31 @@ The final array should look something like this:
     26-100
 ]
 */
+
+
+
+
+function showSeats() {
+    let seatArray = []
+    let arrayRow = []
+    let arraySeat = []
+
+
+    for (let i = 0; i < 26; i++) { 
+        arrayRow.push(i+1)
+        for (let j = 0; j < 100; j++) {
+            arraySeat.push(j+1)
+            seatArray.push(`${arrayRow[i]} - ${arraySeat[j]}`)  
+        }
+ 
+    }
+return seatArray;
+}
+console.log(showSeats())
+
+
+/* 
+starting from 2 arrays of numbers
+result should be an array
+we want to incremente every index of the first array from 1 to 100
+*/ 
