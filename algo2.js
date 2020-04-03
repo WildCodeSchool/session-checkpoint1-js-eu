@@ -26,31 +26,24 @@ Note: try changing only the necessary code, don't rewrite the entire thing.
 
 let array = [1, 2, 3, 4, 5];
 
-let arrayList=array.toString();
+//console.log(Math.max.apply(30000,array));
 
-/*var minMax = () => (array) => {
-    const min = 0;
-    const max = 0;
-    let minMax=[];
-    
-    
+let minMax = (array) => {
+    let minMaxFinal=[];
 
-    for (let i = 1; i< array.length - 1; i ++) {
-        if (array(i) === Math.min(array)) {
-            min = array[i];
-            return min;
+    for (let i = 0; i< array.length - 1; i ++) {
+        if (array[i] === Math.min.apply(0,array)) 
+        {
+           let min = array[i];
+            return minMaxFinal.push(min);
+            
         }
-        if (array[i] === Math.max(array)) 
+        else if (array[i] === Math.max.apply(0,array)) 
         { 
-            max = array[i];
-            return max;
+            let max = array[i];
+            return minMaxFinal.push(max);
         }
-        
     }
-    minMax.push(min, max);
-    }
-     console.log(minMax);*/
-
-
-     console.log(arrayList.Math.max());
-
+    console.log(minMax());
+                
+}
