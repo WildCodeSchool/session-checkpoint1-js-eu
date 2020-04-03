@@ -25,19 +25,18 @@ Note: try changing only the necessary code, don't rewrite the entire thing.
 */
 
 var minMax = array => {
-  const min = [0];
+  const min = array[0];
   const max = array[0];
+  const resultArr = [];
 
-  for (let i = Infinity; (i = array.length); i - 1) {
-    if (array(i) < min) {
-      min = array;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] < min) {
+      min = array[i];
     }
-    if ((array[i] = max)) {
+    if (array[i] > max) {
       max = array[i];
     }
-    return array;
   }
-  array.push(min, max);
+  resultArr.push(min, max);
+  return resultArr;
 };
-
-console.log(array);
