@@ -23,3 +23,17 @@ The final array should look something like this:
     26-100
 ]
 */
+
+function cinemaSeats() {
+    let rows = 26;
+    let seats = 100;
+    let cinemaSeats = []
+    for (let i = 1; i <= rows; i++) {
+        for (let j = 1; j <= seats; j++) {
+            cinemaSeats.push(`${i} - ${j}`);
+        }
+    }
+    return cinemaSeats;
+}
+
+cinemaSeats();
