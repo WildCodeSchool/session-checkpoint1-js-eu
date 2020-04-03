@@ -26,10 +26,14 @@ Note: try changing only the necessary code, don't rewrite the entire thing.
 
 let array = [1, 2, 3, 4, 5];
 
-var minMax = () => (array) => {
+let arrayList=array.toString();
+
+/*var minMax = () => (array) => {
     const min = 0;
     const max = 0;
     let minMax=[];
+    
+    
 
     for (let i = 1; i< array.length - 1; i ++) {
         if (array(i) === Math.min(array)) {
@@ -45,5 +49,8 @@ var minMax = () => (array) => {
     }
     minMax.push(min, max);
     }
-     console.log(minMax);
+     console.log(minMax);*/
+
+
+     console.log(arrayList.Math.max());
 
