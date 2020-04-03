@@ -1,0 +1,41 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    margin: 5px;
+    padding: 0 100px;
+}
+
+
+
+
+@media (min-width: 768px) { 
+    img{
+        padding: 0 10px;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    img{
+        transform: scale(.7);
+        padding: 0 -100px;
+        margin: 0 -50px;
+    }
+
+}
+@media (min-width: 1115px) {
+    img{
+        transform: scale(.7);
+        padding: 0 -10px;
+        margin: 0 -40px;
+    }
+
+}
+

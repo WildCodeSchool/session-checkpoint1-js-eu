@@ -5,6 +5,15 @@ If the user enters a number that is above 60, your program should fail, and log 
 (Hint: Create an HTML UI to capture input and display the result of running you algorithm)
 */
 
-function minuteAngle(minute) {
 
+
+function minuteAngle(minute) {
+    if(minute <= 60 && minute >= 0){
+        let angle = minute * 6
+        return angle
+    }else{
+        console.log('Please input a number between 0-60')
+    }
 }
+
+
