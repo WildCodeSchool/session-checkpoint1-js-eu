@@ -6,5 +6,29 @@ If the user enters a number that is above 60, your program should fail, and log 
 */
 
 function minuteAngle(minute) {
+    let message = "";
+    let angle = 0;
 
+    //if 15 minutes equals 90 degrees, this means 1 minute equals 6 degrees:
+    if (minute <= 60) {
+        angle = minute * 6;
+        message = `For the ${minute} the angle is ${angle}!`;
+        console.log(message);
+        return message;
+    }
+    if(minute > 60) {
+        message = `${minute} is higher than 60! We only have 60 minutes as the maximum value. Try again!`;
+        console.log(message);
+        return message;
+    }
+    return message;
 }
+
+
+
+/* let input = document.getElementById("angleMinutes").value;
+let button = document.getElementById('btnSubmit');
+button.addEventListener('click', minuteAngle(input)); */
+
+/* document.getElementById("messageOutput").innerHTML = message;
+ */
