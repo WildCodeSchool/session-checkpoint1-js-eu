@@ -23,3 +23,20 @@ The final array should look something like this:
     26-100
 ]
 */
+
+
+function cinemaSeats(){
+    let arr=[];
+
+    for(i = 1; i < 27; i++){
+        for(j = 1; j < 101; j++){
+            arr.push(`${i} - ${j}`);
+        }
+    }
+
+    return arr;
+
+};
+
+cinemaSeats()
+
