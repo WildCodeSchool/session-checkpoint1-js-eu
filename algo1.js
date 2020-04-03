@@ -23,3 +23,29 @@ The final array should look something like this:
     26-100
 ]
 */
+
+function allSeatsMap(){
+    // CREATE AN ARRAY FOR THE ROWS (1 - 26)
+    let rows = [];
+    for(let i = 1; i <= 26; i++){
+        rows.push(i)
+    }
+    //CREATE AN ARRAY FOR THE SEATS (1 - 100)
+    let seats = [];
+    for(let i = 1; i <= 100; i++){
+        seats.push(i)
+    }
+    //ITERATE ROW AND SEATS ARRAYS
+    let mapSeats = [];
+    let tempArray = [];
+    for (i = 0; i < rows.length; i++){
+        for(j = 0; j < seats.length; j++){
+            tempArray.push(`${rows[i]} - ${seats[j]}`)
+        }
+        mapSeats.push(tempArray);
+        tempArray = [];
+    }
+        return mapSeats;
+}
+
+console.log(allSeatsMap());
