@@ -27,4 +27,4 @@ function hourAngle(hour) {
   }
 }
 
-const angle3 = minuteAngle(angle) + hourAngle(angle2);
+const angle3 = angle + angle2;
