@@ -1,0 +1,36 @@
+body {
+    background-color: #5c9c65 !important;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+  }
+
+  h1 {
+      color: white;
+      text-align: center;
+  }
+
+  .recipe {
+    .container {
+      display: grid;
+    
+    }
+    
+    .recipe img{
+      width: 240px;
+      height: 11rem;
+      padding: 10px;
+      display: inline-block;
+      border-radius: 8px;
+    }
+
+    // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
