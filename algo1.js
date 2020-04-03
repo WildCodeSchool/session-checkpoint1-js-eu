@@ -23,3 +23,22 @@ The final array should look something like this:
     26-100
 ]
 */
+
+const rows = [];
+for (var i = 1; i <= 26; i++) rows.push(i);
+
+const seats = [];
+for (var it = 1; it <= 100; it++) seats.push(it);
+const place = [];
+
+console.log(rows);
+console.log(seats);
+
+const array = rows.map(row => {
+  for (let n = 0; n < seats.length; n++) {
+    place.push(`${row} - ${seats[n]}`);
+  }
+  return place;
+});
+
+console.log(place);
