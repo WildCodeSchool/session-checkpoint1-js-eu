@@ -6,5 +6,16 @@ If the user enters a number that is above 60, your program should fail, and log 
 */
 
 function minuteAngle(minute) {
+    let angle;
+    if (minute<=60){
+        angle=360/minute;
+        return angle;
+    }
+    else
+    {
+        return ('Please enter a value inferior or equal to 60')
+    }
 
 }
+
+console.log(minuteAngle(50));
