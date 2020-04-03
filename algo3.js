@@ -16,3 +16,15 @@ function minuteAngle(minute) {
     return "Enter a value inferior or Equal to 60";
   }
 }
+
+function hourAngle(hour) {
+  let angle2;
+  if (hour <= 11) {
+    angle2 = hour * 30;
+    return angle2;
+  } else {
+    return "Enter a value inferior or Equal to 11";
+  }
+}
+
+const angle3 = minuteAngle(angle) + hourAngle(angle2);
