@@ -1,0 +1,437 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200403.105716.6024.0.001.json",
+    "dumpEventTime": "2020-04-03T10:57:16Z",
+    "dumpEventTimeStamp": "1585907836985",
+    "processId": 6024,
+    "cwd": "C:\\Users\\User\\Documents\\WCS\\Checkpoint-1\\session-checkpoint1-js-eu",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "algo2.js"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.17763",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 24589312,
+        "nice": 0,
+        "sys": 19205562,
+        "idle": 224312625,
+        "irq": 2522875
+      },
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 17923625,
+        "nice": 0,
+        "sys": 14214296,
+        "idle": 235969437,
+        "irq": 206906
+      },
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 24646000,
+        "nice": 0,
+        "sys": 18328968,
+        "idle": 225132390,
+        "irq": 197359
+      },
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 17818171,
+        "nice": 0,
+        "sys": 13075625,
+        "idle": 237213546,
+        "irq": 115671
+      },
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 26373250,
+        "nice": 0,
+        "sys": 15479875,
+        "idle": 226254218,
+        "irq": 191718
+      },
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 18855468,
+        "nice": 0,
+        "sys": 10136421,
+        "idle": 239115453,
+        "irq": 140640
+      },
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 24819406,
+        "nice": 0,
+        "sys": 14396484,
+        "idle": 228891468,
+        "irq": 207859
+      },
+      {
+        "model": "AMD Ryzen 7 3700U with Radeon Vega Mobile Gfx  ",
+        "speed": 2296,
+        "user": 18176906,
+        "nice": 0,
+        "sys": 12447171,
+        "idle": 237483281,
+        "irq": 276421
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e8:d0:fc:fd:8f:8b",
+        "address": "2a02:c7d:e296:d800:d970:8b3:18b1:3ed9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e8:d0:fc:fd:8f:8b",
+        "address": "fdfd:d84c:4573:0:d970:8b3:18b1:3ed9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e8:d0:fc:fd:8f:8b",
+        "address": "2a02:c7d:e296:d800:51c7:d1c9:3b51:efbd",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e8:d0:fc:fd:8f:8b",
+        "address": "fdfd:d84c:4573:0:11c5:bb45:c430:a84f",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e8:d0:fc:fd:8f:8b",
+        "address": "fe80::d970:8b3:18b1:3ed9",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "e8:d0:fc:fd:8f:8b",
+        "address": "192.168.0.12",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-077MOEMO"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7e63319f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff7e6335e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff7e6334dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff7e64334cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff7e6c49f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff7e6c32021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff7e6afe57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff7e6b1b47b",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+59"
+    },
+    {
+      "pc": "0x00007ff7e6b1b431",
+      "symbol": "v8::internal::Factory::NewUninitializedFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff7e69f857f",
+      "symbol": "v8::debug::Script::GetIsolate+8527"
+    },
+    {
+      "pc": "0x00007ff7e68a824a",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+162938"
+    },
+    {
+      "pc": "0x00007ff7e7094ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x000002ed38304144",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2278207488,
+    "totalCommittedMemory": 2278207488,
+    "usedMemory": 2243429344,
+    "availableMemory": 17205904,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      },
+      "old_space": {
+        "memorySize": 2244608,
+        "committedMemory": 2244608,
+        "capacity": 2071024,
+        "used": 1624416,
+        "available": 446608
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 160768,
+        "used": 160768,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 266240,
+        "capacity": 243280,
+        "used": 243280,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1493798912,
+        "committedMemory": 1493798912,
+        "capacity": 1493764368,
+        "used": 1493764368,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 747601920,
+        "committedMemory": 747601920,
+        "capacity": 747600920,
+        "used": 747600920,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1.687,
+    "kernelCpuSeconds": 4.046,
+    "cpuConsumptionPercent": 114.66,
+    "maxRss": 1340837888,
+    "pageFaults": {
+      "IORequired": 793263,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\User\\AppData\\Roaming",
+    "COLORTERM": "truecolor",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-077MOEMO",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "HOME": "C:\\Users\\User",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\User",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\User\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-077MOEMO",
+    "MSYSTEM": "MINGW64",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\User\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\User\\OneDrive",
+    "PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\User\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Yarn\\bin;C:\\Users\\User\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\User\\AppData\\Roaming\\npm;C:\\Users\\User\\AppData\\Local\\Yarn\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "1801",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PS1": "\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ ",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/Users/User/Documents/WCS/Checkpoint-1/session-checkpoint1-js-eu",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHLVL": "1",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "TEMP": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.43.2",
+    "TMP": "C:\\Users\\User\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-077MOEMO",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-077MOEMO",
+    "USERNAME": "User",
+    "USERPROFILE": "C:\\Users\\User",
+    "WINDIR": "C:\\Windows",
+    "_": "C:/Program Files/nodejs/node",
+    "configsetroot": "C:\\Windows\\ConfigSetRoot"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}
