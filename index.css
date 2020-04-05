@@ -1,0 +1,20 @@
+ 
+body{
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif,sans-serif;
+    background-color: #ffff;
+}
+
+.pictures {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    }
