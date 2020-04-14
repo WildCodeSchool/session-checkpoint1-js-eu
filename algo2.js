@@ -24,18 +24,30 @@ Fix the following function to help your new coworker!
 Note: try changing only the necessary code, don't rewrite the entire thing. 
 */
 
-var minMax = () => (array) => {
-    const min = 0;
-    const max = array[0];
+var minMax = (array) => {
+    let min = array[0];
+    let max = array[0];
+    let result = [];
 
-    for (let i = 1; i = array.length - 1; i + 1) {
-        if (array(i) < min) {
-            min = array;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] < min) {
+            min = array[i];
         }
-        if (array[i] = max) {
+        if (array[i] > max) {
             max = array[i];
         }
-        return array;
     }
-    array.push(min, max);
+    result = [min, max];
+    return result;
 }
+
+console.log(minMax([56, 7, 63, 9, 7, 12, 85]))
+
+// Pseudocode 
+// - the function receives an array (of integers) or null.
+// - the function should return the minimum and maximum values (of the given array)
+// - the return value should also be an array, i.e: [min, max]
+
+// Example 3:
+// Array: [56, 7, 63, 9, 7, 12, 85]
+// Result: [7, 85]
